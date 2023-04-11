@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Product, ProductsAPIResponse } from "../types";
-import { IHome } from "./interfaces";
+import { IHome } from "../types/interfaces";
 
 const Home: NextPage<IHome> = ({ data }) => {
   if (!data) return null;

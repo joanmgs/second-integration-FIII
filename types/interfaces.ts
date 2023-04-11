@@ -1,4 +1,4 @@
-import { ProductsAPIResponse, TyCsAPIResponse } from "../types";
+import { ProductsAPIResponse, TyCsAPIResponse } from ".";
 
 export interface IHome {
   data: ProductsAPIResponse;

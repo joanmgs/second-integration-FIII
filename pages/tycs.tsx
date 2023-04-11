@@ -3,7 +3,7 @@ import React from "react";
 import { TyC, TyCsAPIResponse } from "../types";
 import styles from "../styles/TYC.module.css";
 import Head from "next/head";
-import { ITerminosYCondiciones } from "./interfaces";
+import { ITerminosYCondiciones } from "../types/interfaces";
 
 const TerminosYCondiciones: NextPage<ITerminosYCondiciones> = ({ data }) => {
   if (!data) return null;
