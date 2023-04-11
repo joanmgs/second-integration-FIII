@@ -1,6 +1,5 @@
 import { ProductsAPIResponse, TyCsAPIResponse } from "../../types";
 
-// Para la ruta de productos destacados
 export const products: ProductsAPIResponse = [
   {
     id: 1,
@@ -95,7 +94,6 @@ export const products: ProductsAPIResponse = [
   },
 ];
 
-// Para la ruta de términos y condiciones
 export const tycs: TyCsAPIResponse = {
   version: "3 de julio, 2022",
   tycs: [
